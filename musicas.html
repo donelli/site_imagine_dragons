@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "introduction" content = "no-reference">
+    <title>Imagine Dragons</title>
+    <script src="./lib/jquery/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+    <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" data-auto-replace-svg="nest"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="container-fluid">
+            
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo.png" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+            </a>
+            
+            <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Sobre a banda</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="musicas.html">Músicas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="fale_conosco.html">Contato</a>
+                    </li>
+                    <li class="nav-item d-none d-md-flex">
+                        <a class="nav-link" target="_blank" href="https://www.facebook.com/ImagineDragons/">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item d-none d-md-flex">
+                        <a class="nav-link" target="_blank" href="https://www.instagram.com/imaginedragons/?hl=pt-br">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item d-none d-md-flex">
+                        <a class="nav-link" target="_blank" href="https://twitter.com/imaginedragons">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item d-md-none">
+                        
+                        <div class="row">
+                            <div class="col-4 text-center">
+                                <a class="nav-link" target="_blank" href="https://www.facebook.com/ImagineDragons/">
+                                    <i class="fab fa-facebook-square"></i>
+                                </a>
+                            </div>
+                            <div class="col-4 text-center">
+                                <a class="nav-link" target="_blank" href="https://www.instagram.com/imaginedragons/?hl=pt-br">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                            <div class="col-4 text-center">
+                                <a class="nav-link" target="_blank" href="https://twitter.com/imaginedragons">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </li>
+                </ul>
+            </div>
+            
+        </nav>
+        
+        <div class="row mt-4">
+            
+            <div class="col-md-7 order-md-last">
+                
+                <div class="embed-responsive" id="ytplayer">
+                </div>
+                
+                <h5 class="text-center mt-3">
+                    Video não funciona no localhost nem aberto como arquivo <i class="far fa-sad-tear"></i>
+                </h5>
+                
+            </div>
+            
+            <div class="col-md-5">
+                
+                <div class="list-group">
+                    <btn class="list-group-item list-group-item-action cursor-pointer list-group-item-primary" onclick="alteraVideo('7wtfhZwyrcc', this)">
+                        Believer
+                    </btn>
+                    <btn class="list-group-item list-group-item-action cursor-pointer" onclick="alteraVideo('I-QfPUz1es8', this)">
+                        Bad Liar
+                    </btn>
+                    <btn class="list-group-item list-group-item-action cursor-pointer" onclick="alteraVideo('ktvTqknDobU', this)">
+                        Radioactive
+                    </btn>
+                    <btn class="list-group-item list-group-item-action cursor-pointer" onclick="alteraVideo('mWRsgZuwf_8', this)">
+                        Demons
+                    </btn>
+                    <btn class="list-group-item list-group-item-action cursor-pointer" onclick="alteraVideo('0I647GU3Jsc', this)">
+                        Natural
+                    </btn>
+                    <btn class="list-group-item list-group-item-action cursor-pointer" onclick="alteraVideo('fKopy74weus', this)">
+                        Thunder
+                    </btn>
+                    <btn class="list-group-item list-group-item-action cursor-pointer" onclick="alteraVideo('gOsM-DYAEhY', this)">
+                        Whatever It Takes
+                    </btn>
+                    <btn class="list-group-item list-group-item-action cursor-pointer" onclick="alteraVideo('59jGD4WrmE', this)">
+                        Sucker for Pain
+                    </btn>
+                    <btn class="list-group-item list-group-item-action cursor-pointer" onclick="alteraVideo('fmI_Ndrxy14', this)">
+                        Warriors
+                    </btn>
+                </div >
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+    <script src="./js/script_musicas.js"></script>
+    
+</body>
+</html>
