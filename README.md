@@ -1,8 +1,8 @@
-# Site Imagine Dragons
+# Imagine Dragons Site
 
-Site desenvolvido para a disciplina de Programação Web na UCS em 08/09/2020
+developed for the discipline of Web Programming at UCS in 2020-04
 
-## Tecnologias utilizadas:
+## Tecnologies
 
 <img align="left" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
 <img align="left" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
