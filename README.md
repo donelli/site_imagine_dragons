@@ -1,6 +1,6 @@
 # Imagine Dragons Site
 
-developed for the discipline of Web Programming at UCS in 2020-04
+Developed for the discipline of Web Programming at UCS in 2020-04
 
 ## Tecnologies
 
